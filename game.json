@@ -1,0 +1,2200 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "tk.justdancevibes.slide",
+    "projectUuid": "fa0d5651-c75c-4f9d-9a59-975540847323",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "0.0.2",
+    "name": "Just Dance Slide",
+    "author": "Vince Linise",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
+    },
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gamebg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gamebg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading-2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading-2x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/triangle_texture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\triangle_texture.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-28.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-30.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-31.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-39.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-41.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-42.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-46.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-47.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-49.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-51.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-52.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-54.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-55.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-56.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-59.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-61.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-62.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-64.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-65.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-66.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-67.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-68.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-69.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-70.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-71.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-73.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-74.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-75.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loading/frame-77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loading\\frame-77.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-30.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-31.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-35.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-37.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-39.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-41.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-46.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-47.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-49.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-51.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-53.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-55.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-61.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-62.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-65.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-66.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-67.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-68.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-69.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-70.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-71.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-73.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-74.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-75.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loader/frame-77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loader\\frame-77.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_image.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_image.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_quit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_start.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\theme.mp3",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/errorbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\errorbg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fonts/litera bold italic.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\litera bold italic.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "fonts/litera regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\litera regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "audio/error.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\error.wav",
+        "userAdded": false
+      },
+      {
+        "file": "audio/error2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\error2.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/crowd_1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\crowd_1.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_toile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_toile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_text.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gamebg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gamebg2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mobile_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mobile_text.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mobile_text_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mobile_text_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mobile_question.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mobile_question.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_back.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "audio/next.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\next.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/change.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\change.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mode_question.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mode_question.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gamebg3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gamebg3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mode_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mode_text.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mode_text_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mode_text_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mode_text_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mode_text_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Card.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Card.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songbg-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songbg-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songbg-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songbg-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songcard-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songcard-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songover-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songover-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui_bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songs-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songs-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songtext-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songtext-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dance_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dance_text.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songtext-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songtext-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songs-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songs-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songover-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songover-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/songcard-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\songcard-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "songs/preview_0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "songs\\preview_0.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "songs/preview_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "songs\\preview_1.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "preview_0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "preview_0.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "preview_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "preview_1.mp3",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "error_title",
+      "value": "Something really got wrong."
+    },
+    {
+      "name": "error_text",
+      "value": "The game can't continue to run."
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mobile_selection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mode_selection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/songs"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/error"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
