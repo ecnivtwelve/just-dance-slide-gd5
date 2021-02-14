@@ -8,7 +8,7 @@
   "oglZNear": 1,
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -507,14 +507,15 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlayMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "audio\\theme.mp3",
-            "yes",
+            "5",
             "",
-            ""
+            "70",
+            "1"
           ],
           "subInstructions": []
         },

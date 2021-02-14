@@ -15,7 +15,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
-    "version": "0.0.2",
+    "version": "0.1.3",
     "name": "Just Dance Slide",
     "author": "Vince Linise",
     "windowWidth": 1920,
@@ -2142,6 +2142,873 @@
         "metadata": "",
         "name": "preview_1.mp3",
         "userAdded": true
+      },
+      {
+        "file": "assets/jds-intro.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets\\jds-intro.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/tr_line-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\tr_line-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "songs/tr_line-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "songs\\tr_line-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00038.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00045.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00046.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00047.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00050.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00053.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00054.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00057.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00058.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00059.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00060.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00061.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00064.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00064.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00065.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00065.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00066.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00066.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00067.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00067.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00068.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00069.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00070.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00072.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00073.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00074.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00075.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00076.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00077.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00078.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00079.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00081.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00083.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00084.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00085.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00086.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00087.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/tr_00089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\tr_00089.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/Composition 1/none.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\Composition 1\\none.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dance/0.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "dance\\0.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/crazy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\crazy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "dance/1.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "dance\\1.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2156,6 +3023,10 @@
     {
       "name": "error_text",
       "value": "The game can't continue to run."
+    },
+    {
+      "name": "play_song",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -2181,7 +3052,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/transition"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/error"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dance"
     }
   ],
   "externalEvents": [],

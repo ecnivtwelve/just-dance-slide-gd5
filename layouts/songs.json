@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.544
+    "zoomFactor": 0.496
   },
   "objectsGroups": [],
   "variables": [
@@ -136,22 +136,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "ui_songs",
-      "persistentUuid": "6ba05035-b6bd-4e9c-90b6-f11dffce342b",
-      "width": 0,
-      "x": 1427,
-      "y": 763,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "Song UI",
       "locked": false,
       "name": "ui_songs",
@@ -198,32 +182,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 90,
-      "layer": "",
+      "customSize": false,
+      "height": 0,
+      "layer": "Animate",
       "locked": false,
-      "name": "songtext",
-      "persistentUuid": "5343ea81-7400-4184-9b89-4432628241bc",
-      "width": 774,
-      "x": 81,
-      "y": 493,
-      "zOrder": 8,
+      "name": "songover2",
+      "persistentUuid": "6e5fbc94-9591-4573-9a8c-25e3b0acd800",
+      "width": 0,
+      "x": 1040,
+      "y": 0,
+      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 90,
-      "layer": "",
+      "customSize": false,
+      "height": 0,
+      "layer": "Background image",
       "locked": false,
-      "name": "songtext",
-      "persistentUuid": "d5050d42-778f-4c6b-beb5-7a03b470862c",
-      "width": 774,
-      "x": 81,
-      "y": 493,
-      "zOrder": 8,
+      "name": "triangles",
+      "persistentUuid": "89d969e4-8d34-4e6d-aa72-15b0b0c17355",
+      "width": 0,
+      "x": 620,
+      "y": 650,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -400,6 +384,79 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "songs\\songcard-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "songover2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "songs\\songover-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "songs\\songover-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -713,23 +770,61 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "NewObject",
-      "smoothed": true,
+      "additive": false,
+      "alphaParam": "Mutable",
+      "angleParam": "Mutable",
+      "blueParam": "Random",
+      "destroyWhenNoParticles": true,
+      "emissionEditionSimpleMode": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 180,
+      "emitterForceMax": 200,
+      "emitterForceMin": 80,
+      "emitterXDirection": 0,
+      "emitterYDirection": 1,
+      "emitterZDirection": 0,
+      "flow": 400,
+      "friction": 20,
+      "gravityEditionSimpleMode": true,
+      "greenParam": "Random",
+      "maxParticleNb": 9000,
+      "name": "triangles",
+      "particleAlpha1": 20,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 20,
+      "particleAngle2": 120,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleEditionSimpleMode": true,
+      "particleGravityX": 15,
+      "particleGravityY": 30,
+      "particleGravityZ": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 15,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "redParam": "Enabled",
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "sizeParam": "Mutable",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "tank": -1,
+      "textureParticleName": "assets\\triangle_texture.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5000,
       "variables": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
+      "behaviors": []
     }
   ],
   "events": [
@@ -759,6 +854,17 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ],
+          "subInstructions": []
+        },
         {
           "type": {
             "inverted": false,
@@ -804,6 +910,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "songover2",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
         {
           "type": {
             "inverted": false,
@@ -863,6 +981,34 @@
           },
           "parameters": [
             "songover",
+            "Tween",
+            "\"songover\"",
+            "1040",
+            "\"easeOutExpo\"",
+            "700",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "songover2",
+            "=",
+            "1540"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionXTween"
+          },
+          "parameters": [
+            "songover2",
             "Tween",
             "\"songover\"",
             "1040",
@@ -1000,6 +1146,34 @@
         {
           "type": {
             "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "songover2",
+            "=",
+            "1540"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionXTween"
+          },
+          "parameters": [
+            "songover2",
+            "Tween",
+            "\"songover\"",
+            "1040",
+            "\"easeOutExpo\"",
+            "700",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "MettreY"
           },
           "parameters": [
@@ -1113,6 +1287,34 @@
           },
           "parameters": [
             "songover",
+            "Tween",
+            "\"songover\"",
+            "1040",
+            "\"easeOutExpo\"",
+            "700",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "songover2",
+            "=",
+            "1540"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionXTween"
+          },
+          "parameters": [
+            "songover2",
             "Tween",
             "\"songover\"",
             "1040",
@@ -1241,6 +1443,18 @@
             "value": "ChangeAnimation"
           },
           "parameters": [
+            "songover2",
+            "=",
+            "Variable(selected_song)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
             "ui_songs",
             "=",
             "Variable(selected_song)"
@@ -1351,11 +1565,131 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Other",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "0.5",
+            "\"beat\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "songover2",
+            "=",
+            "255"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "songover2",
+            "Tween",
+            "\"beat\"",
+            "0",
+            "\"easeOutQuad\"",
+            "500",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"beat\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Return"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "play_song",
+            "=",
+            "Variable(selected_song)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Transition\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
     {
-      "ambientLightColorB": 1702453580,
+      "ambientLightColorB": 1702453632,
       "ambientLightColorG": 6009760,
       "ambientLightColorR": 67108864,
       "followBaseLayerCamera": false,
@@ -1363,20 +1697,7 @@
       "name": "Background image",
       "visibility": true,
       "cameras": [],
-      "effects": [
-        {
-          "effectType": "Blur",
-          "name": "Blur",
-          "doubleParameters": {
-            "blur": 4,
-            "kernelSize": 5,
-            "quality": 1,
-            "resolution": 2
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ]
+      "effects": []
     },
     {
       "ambientLightColorB": 1702453632,
@@ -1410,6 +1731,31 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 6009760,
+      "ambientLightColorR": 150994992,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Animate",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Bloom",
+          "doubleParameters": {
+            "bloomScale": 2,
+            "blur": 4,
+            "brightness": 0.7,
+            "quality": 7,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 1702453632,

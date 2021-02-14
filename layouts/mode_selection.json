@@ -263,6 +263,19 @@
           ]
         }
       ]
+    },
+    {
+      "name": "transition",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "assets\\jds-intro.mp4"
+      }
     }
   ],
   "events": [
@@ -446,13 +459,24 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlaySound"
+            "value": "PauseMusicCanal"
           },
           "parameters": [
             "",
-            "audio\\next.wav",
+            "5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
             "",
-            "",
+            "transition",
+            "0",
+            "0",
             ""
           ],
           "subInstructions": []
@@ -460,11 +484,10 @@
         {
           "type": {
             "inverted": false,
-            "value": "PushScene"
+            "value": "Video::Play"
           },
           "parameters": [
-            "",
-            "\"Songs\""
+            "transition"
           ],
           "subInstructions": []
         }
@@ -563,6 +586,37 @@
             "allownext",
             "=",
             "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "transition"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Songs\""
           ],
           "subInstructions": []
         }
